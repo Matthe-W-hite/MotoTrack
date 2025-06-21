@@ -41,8 +41,16 @@
 
 ### Backend
 
-```bash
+`bash
 cd MotoTrack.API
 dotnet restore
 dotnet ef database update
-dotnet run
+dotnet run`
+
+### Frontend
+
+`bash
+cd MotoTrack.App
+npm install
+npx expo start`
+
